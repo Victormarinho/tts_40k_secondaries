@@ -17,17 +17,17 @@
 						{
 							"id": "CR.01.01.02",
 							"name": "PRIORITY TARGET",
-							"description": "Keep a Priority Target tally for each unit from your army. Add 1 to a unit’s Priority Target tally each time it destroys an enemy VEHICLE or MONSTER unit. Each unit gains 2 experience points for every mark on its Priority Target tally."
+							"description": "Keep a Priority Target tally for each unit from your army.\n Add 1 to a unit’s Priority Target tally each time it destroys an enemy VEHICLE or MONSTER unit.\n Each unit gains 2 experience points for every mark on its Priority Target tally."
 						},
 						{
 							"id": "CR.01.01.03",
 							"name": "TITAN HUNTER",
-							"description": "Keep a Titan Hunter tally for each unit from your army. Add 1 to a unit’s Titan Hunter tally each time it destroys an enemy TITANIC unit. Each unit gains 4 experience points for every mark on its Titan Hunter tally."
+							"description": "Keep a Titan Hunter tally for each unit from your army.\n Add 1 to a unit’s Titan Hunter tally each time it destroys an enemy TITANIC unit.\n Each unit gains 4 experience points for every mark on its Titan Hunter tally."
 						},
 						{
 							"id": "CR.01.01.04",
 							"name": "KING SLAYER",
-							"description": "If a unit from your army destroyed the enemy WARLORD during the battle, that unit gains 3 experience points. A unit does not achieve this agenda if the enemy WARLORD is subsequently resurrected by any means. If the enemy WARLORD is resurrected but is subsequently destroyed again by another unit from your army, then it is the last unit to have destroyed it that achieves this Agenda."
+							"description": "If a unit from your army destroyed the enemy WARLORD during the battle, that unit gains 3 experience points.\n A unit does not achieve this agenda if the enemy WARLORD is subsequently resurrected by any means.\n If the enemy WARLORD is resurrected but is subsequently destroyed again by another unit from your army,\n then it is the last unit to have destroyed it that achieves this Agenda."
 						}
 					]
 				},
@@ -37,17 +37,17 @@
 						{
 							"id": "CR.01.02.01",
 							"name": "FIRST STRIKE",
-							"description": "Keep a First Strike tally for each unit from your army. Add 1 to a unit’s First Strike tally each time it destroys an enemy unit in the first battle round. Each unit from your army gains a number of experience points equal to their First Strike tally."
+							"description": "Keep a First Strike tally for each unit from your army.\n Add 1 to a unit’s First Strike tally each time it destroys an enemy unit in the first battle round.\n Each unit from your army gains a number of experience points equal to their First Strike tally."
 						},
 						{
 							"id": "CR.01.02.02",
 							"name": "CULL THE HORDES",
-							"description": "Keep a Cull the Hordes tally for each unit from your army. Add 1 to a unit’s Cull the Hordes tally each time it destroys six or more models in the same phase. Each unit gains a number of experience points equal to their Cull the Hordes tally."
+							"description": "Keep a Cull the Hordes tally for each unit from your army.\n Add 1 to a unit’s Cull the Hordes tally each time it destroys six or more models in the same phase.\nEach unit gains a number of experience points equal to their Cull the Hordes tally."
 						},
 						{
 							"id": "CR.01.02.03",
 							"name": "REAPER",
-							"description": "The unit in your army that has the highest combat tally of enemy units destroyed during the battle earns 2 experience points. If two or more units are tied, you choose which unit achieves this Agenda."
+							"description": "The unit in your army that has the highest combat tally of enemy units destroyed during the battle earns 2 experience points. \nIf two or more units are tied, you choose which unit achieves this Agenda."
 						}
 					]
 				},
@@ -57,17 +57,17 @@
 						{
 							"id": "CR.01.03.01",
 							"name": "SENTINEL",
-							"description": "At the start of your first Command phase, select one objective marker that is on the battlefield and one unit from your army. That unit gains 4 experience points after the battle if, at the end of the battle, it is in range of that objective marker and you control that objective marker."
+							"description": "At the start of your first Command phase, select one objective marker that is on the battlefield and one unit from your army. \nThat unit gains 4 experience points after the battle if, at the end of the battle,\n it is in range of that objective marker and you control that objective marker."
 						},
 						{
 							"id": "CR.01.03.02",
 							"name": "BREAKTHROUGH",
-							"description": "At the end of the battle, select up to three units from your army (excluding AIRCRAFT) that are wholly within 6' of your opponent’ battlefield edge. Each of these units earns 2 experience points."
+							"description": "At the end of the battle, select up to three units from your army (excluding AIRCRAFT) that are wholly within 6' of your opponent’ battlefield edge.\n Each of these units earns 2 experience points."
 						},
 						{
 							"id": "CR.01.03.03",
 							"name": "SURVIVOR",
-							"description": "At the start of your first Command phase, select one unit from your army. That unit gains 2 experience points after the battle if it is not destroyed at the end of the battle, and an additional 2 bonus experience points if it is not below Half-strength. Units that have only a single model instead gain these bonus experience points if, at the end of the battle, the number of wounds that model has remaining is at least half their Wounds characteristic."
+							"description": "At the start of your first Command phase, select one unit from your army.\n That unit gains 2 experience points after the battle if it is not destroyed at the end of the battle,\n and an additional 2 bonus experience points if it is not below Half-strength.\n Units that have only a single model instead gain these bonus experience points if,\n at the end of the battle, the number of wounds that model has remaining is at least half their Wounds characteristic."
 						}
 					]
 				},
