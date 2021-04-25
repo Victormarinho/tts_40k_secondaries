@@ -12,7 +12,7 @@
 						{
 							"id": "CR.01.01.01",
 							"name": "ASSASSINS",
-							"description": "Keep an Assassins tally for each unit from your army. Add 1 to a unit's Assassins tally each time it destroys an enemy CHARACTER unit. Each unit gains 2 experience points for every mark on its Assassins tally."
+							"description": "Keep an Assassins tally for each unit from your army. \nAdd 1 to a unit's Assassins tally each time it destroys an enemy CHARACTER unit.\n Each unit gains 2 experience points for every mark on its Assassins tally."
 						},
 						{
 							"id": "CR.01.01.02",
