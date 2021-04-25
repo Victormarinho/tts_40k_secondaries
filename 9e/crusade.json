@@ -1,0 +1,123 @@
+{
+	"ver": "CR_9e_01",
+	"name": "Crusade",
+	"factions": [
+		{
+			"faction": "GENERIC",
+			"name": "Generic",
+			"categories": [
+				{
+					"name": "Purge the Enemy",
+					"objectives": [
+						{
+							"id": "CR.01.01.01",
+							"name": "ASSASSINS",
+							"description": "Keep an Assassins tally for each unit from your army. Add 1 to a unit's Assassins tally each time it destroys an enemy CHARACTER unit. Each unit gains 2 experience points for every mark on its Assassins tally."
+						},
+						{
+							"id": "CR.01.01.02",
+							"name": "PRIORITY TARGET",
+							"description": "Keep a Priority Target tally for each unit from your army. Add 1 to a unit’s Priority Target tally each time it destroys an enemy VEHICLE or MONSTER unit. Each unit gains 2 experience points for every mark on its Priority Target tally."
+						},
+						{
+							"id": "CR.01.01.03",
+							"name": "TITAN HUNTER",
+							"description": "Keep a Titan Hunter tally for each unit from your army. Add 1 to a unit’s Titan Hunter tally each time it destroys an enemy TITANIC unit. Each unit gains 4 experience points for every mark on its Titan Hunter tally."
+						},
+						{
+							"id": "CR.01.01.04",
+							"name": "KING SLAYER",
+							"description": "If a unit from your army destroyed the enemy WARLORD during the battle, that unit gains 3 experience points. A unit does not achieve this agenda if the enemy WARLORD is subsequently resurrected by any means. If the enemy WARLORD is resurrected but is subsequently destroyed again by another unit from your army, then it is the last unit to have destroyed it that achieves this Agenda."
+						}
+					]
+				},
+				{
+					"name": "No Mercy, No Respite",
+					"objectives": [
+						{
+							"id": "CR.01.02.01",
+							"name": "FIRST STRIKE",
+							"description": "Keep a First Strike tally for each unit from your army. Add 1 to a unit’s First Strike tally each time it destroys an enemy unit in the first battle round. Each unit from your army gains a number of experience points equal to their First Strike tally."
+						},
+						{
+							"id": "CR.01.02.02",
+							"name": "CULL THE HORDES",
+							"description": "Keep a Cull the Hordes tally for each unit from your army. Add 1 to a unit’s Cull the Hordes tally each time it destroys six or more models in the same phase. Each unit gains a number of experience points equal to their Cull the Hordes tally."
+						},
+						{
+							"id": "CR.01.02.03",
+							"name": "REAPER",
+							"description": "The unit in your army that has the highest combat tally of enemy units destroyed during the battle earns 2 experience points. If two or more units are tied, you choose which unit achieves this Agenda."
+						}
+					]
+				},
+				{
+					"name": "Battlefield Supremacy",
+					"objectives": [
+						{
+							"id": "CR.01.03.01",
+							"name": "SENTINEL",
+							"description": "At the start of your first Command phase, select one objective marker that is on the battlefield and one unit from your army. That unit gains 4 experience points after the battle if, at the end of the battle, it is in range of that objective marker and you control that objective marker."
+						},
+						{
+							"id": "CR.01.03.02",
+							"name": "BREAKTHROUGH",
+							"description": "At the end of the battle, select up to three units from your army (excluding AIRCRAFT) that are wholly within 6' of your opponent’ battlefield edge. Each of these units earns 2 experience points."
+						},
+						{
+							"id": "CR.01.03.03",
+							"name": "SURVIVOR",
+							"description": "At the start of your first Command phase, select one unit from your army. That unit gains 2 experience points after the battle if it is not destroyed at the end of the battle, and an additional 2 bonus experience points if it is not below Half-strength. Units that have only a single model instead gain these bonus experience points if, at the end of the battle, the number of wounds that model has remaining is at least half their Wounds characteristic."
+						}
+					]
+				},
+				{
+					"name": "Shadow Operations",
+					"objectives": [
+						{
+							"id": "CR.01.04.01",
+							"name": "SECURE THE AREA",
+							"description": "Keep a Secure the Area tally for each unit from yout army. Add 1 to a unit's Secure the Area tally each time it successfully completes the following action:\nSecure the Area (Action): One (INFANTRY unit from yout army (excluding CHARACTERS) can start to perform this action at the end of your Movement phase if it is within 6' of the centre of the battlefield. The action is completed at the end of your turn.Each unit gains a number of experience points equal to their Secure the Area tally."
+						},
+						{
+							"id": "CR.01.04.02",
+							"name": "SEARCH FOR ARCHEOTECH",
+							"description": "Keep a Search for Archeotech tally for each unit from your army. Add 1 to a unit's Search for Archeotech tally each time it successfully completes the following action:\nSearch for Archeotech (Action): One or more INFANTRY units from your army that are wholly within your opponent’s deployment zone can start to perform this action at the end of your Movement phase. The action is completed at the end of your turn.\nEach unit gains 3 experience points if their Search for Archeotech tally is at least 2."
+						},
+						{
+							"id": "CR.01.04.03",
+							"name": "DEPLOY VOX-RELAYS",
+							"description": "At the start of the first battle round, but before the first turn begins, select one INFANTRY unit from your army. That unit can perform the following action:\nDeploy Vox-relay (Action): One unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker that has not already got a Vox-relay deployed on it (see below). The action is completed at the end of your turn. If this action is successfully completed, that objective marker is said to have a Vox-relay deployed on it (the Vox-relay is ‘lost’ if your opponent controls the objective marker at the start of any phase).\nThe unit gains 2 experience points for each objective marker on the battlefield that has one of your Vox-relays deployed on it at the end of the battle."
+						},
+                        {
+							"id": "CR.01.04.04",
+							"name": "RECOVER MISSION ARCHIVES",
+							"description": "Keep a Recover Mission Archives tally for each unit from your army. Add 1 to a unit's Recover Mission Archives tally each time it successfully completes the following action:\nRecover Mission Archives (Action): One INFANTRY, CAVALRY or BIKER unit from your army can start to perform this action at the end of your Movement phase if it is within range of an objective marker that has not already been successfully searched by a unit from your army this battle. The action is completed at the end of your next Command phase provided the unit performing it is still within range of the same objective marker.\nRoll one D6 at the Agenda Achieved step of the game. If the score is equal to or less than the combined total of your units’ Recover Mission Archives tallies, or if the combined tally equals the number of objective markers that were set up at the start of the battle, then one unit of your choosing that successfully performed this action gains 6 experience points."
+						}
+					]
+				},
+				{
+					"name": "Warpcraft",
+					"objectives": [
+						{
+							"id": "CR.01.05.01",
+							"name": "WITCH HUNTER",
+							"description": "Keep a Witch Hunter tally for each unit from your army. Add 1 to a unit's Witch Hunter tally each time it destroys an enemy PSYKER unit (add 3 instead if the destroyed unit was a PSYKER CHARACTER).\nEach unit gains a number of experience points equal to their Witch Hunter tally."
+						},
+						{
+							"id": "CR.01.05.02",
+							"name": "LORD OF THE WARP",
+							"description": "Keep a Lord of the Warp tally for each unit from your army. Add 1 to a unit's Lord of the Warp tally each time it successfully manifests a psychic power, denies an enemy psychic power or completes a psychic action. Reset a unit's Lord of the Warp tally to 0 if and when they suffer Perils of the Warp. The unit from your army that has the highest Lord of the Warp tally gains 2 experience points (unless that unit’s tally is 0, in which case it gains no experience points from this agenda). If two or more units are tied, you select one of them to gain these experience points."
+						},
+						{
+							"id": "CR.01.05.03",
+							"name": "SCRY BATTLE PLANS",
+							"description": "Keep a Scry Battle Plans tally for each PSYKKER unit from your army. Add 1 to a unit's Scry Battle Plans tally each time it successfully completes the following psychic action:\nScry Battle Plans (Psychic Action - Warp Charge 4): One PSYKER CHARACTER unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 18' of an enemy CHARACTER unit.\nEach unit gains 5 experience points if their Scry Battle Plans tally is at least 2."
+						}
+					]
+				}
+			]
+		}
+		
+	]
+}
