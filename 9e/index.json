@@ -1,9 +1,8 @@
 {
 	"ver": "2021-04-25",
 	"packs": [
-		"ew",
+		"crusade",
 		"gt2020",
-		"factions",
-		"crusade"
+		"factions"
 	]
 }
