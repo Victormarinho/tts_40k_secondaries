@@ -29,5 +29,4 @@ jobs:
       uses: ActionCloud/github-raw-url@v1
       with:
         # A normal GitHub url
-        github-url: ${{ convert-to-raw-url }}
 
