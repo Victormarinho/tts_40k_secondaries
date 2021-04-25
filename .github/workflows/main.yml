@@ -23,10 +23,11 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     - name: GitHub raw url
+      id: convert-to-raw-url
       # You may pin to the exact commit or the version.
       # uses: ActionCloud/github-raw-url@3d0c9becc4c40721044757b088e2f6da03b7a7e8
       uses: ActionCloud/github-raw-url@v1
       with:
         # A normal GitHub url
-        github-url: ${{ github-url }}
+        github-url: ${{ convert-to-raw-url }}
 
