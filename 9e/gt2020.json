@@ -15,13 +15,13 @@
 						},
 						{
 							"id": "GT20.01.01.02",
-							"name": "Linebreaker",
-							"description": "[i]Progressive Objective[/i]\nScore 4 victory points at the end of your turn if two or more units from your army (excluding AIRCRAFT)are wholly within your opponent’s deployment zone."
+							"name": "BEHIND ENEMY LINES",
+							"description": "[i]Progressive Objective[/i]\nScore 2 victory points at the end of your turn if one unit from your army (excluding AIRCRAFT units) is wholly within your opponent’s deployment zone.\n Score 4 victory points at the end of your turn instead if two or more units from your army (excluding AIRCRAFT units) are wholly within your opponent’s deployment zone."
 						},
 						{
 							"id": "GT20.01.01.03",
-							"name": "Domination",
-							"description": "[i]Progressive Objective[/i]\nScore 3 victory points if you control more than half the total number of objective markers on the battlefield at the end of your turn."
+							"name": "STRANGLEHOLD",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points at the end of your turn if you control 3 or more objective markers and you also control more objective marker than your opponent controls."
 						}
 					]
 				},
@@ -30,8 +30,8 @@
 					"objectives": [
 						{
 							"id": "GT20.01.02.01",
-							"name": "Thin Their Ranks",
-							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a tally of kill points; each time an enemy model is destroyed, add 1 to this tally (add 10 to this tally instead if the model that was destroyed had a Wounds characteristic of 10 or more). A model can, if it is resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield), potentially add several points to this tally (assuming it is resurrected and destroyed several times over). At the end of the battle, divide your kill points tally by 10 and round down - the result is the number of victory points you score."
+							"name": "NO PRISONERS",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a tally of kill points.\n Each time an enemy model is destroyed, unless that model is a VEHICLE, MONSTER or CHARACTER, add a number of marks to this tally equal to the Wounds characteristic of the destroyed model.\n A model can, if it is resurrected for any reason (i.e. it was destroyed and subsequently returned to the battlefield),\n potentially have marks added to this tally several times (assuming it is resurrected and subsequently destroyed several times over). At the end of the battle,\n divide your kill points tally by 10 and round down - the result is the number of victory points you score."
 						},
 						{
 							"id": "GT20.01.02.02",
@@ -40,13 +40,8 @@
 						},
 						{
 							"id": "GT20.01.02.03",
-							"name": "While We Stand, We Fight",
-							"description": "[i]End Game Objective[/i]\nIf you select this objective, then before the battle you must identify which three units from your army (excluding models with the Fortifications Battlefield Role) have the highest points value, and make a note of them on your army roster (if two or more units are tied, you can choose between them). If your army has three or fewer units, then you instead identify all the units in your army. A unit’s points cost includes the points of all weapons and wargear it is equipped with. You score 5 victory points for each of these units that are on the battlefield at the end of the battle. If a unit splits into several smaller units during the battle, all of those separate units (excluding DRONES units) must be destroyed for the original unit to count as being destroyed for the purposes of this secondary objective."
-						},
-						{
-							"id": "GT20.01.02.04",
-							"name": "First Strike",
-							"description": "[i]End Game Objective[/i]\nScore 5 victory points at the end of the battle if any enemy units were destroyed in the first battle round, and score an additional 3 victory points if more enemy units than friendly units were destroyed in the first battle round."
+							"name": "TO THE LAST",
+							"description": "[i]End Game Objective[/i]\nIIf you select this objective, then before the battle, after you have selected deployment zones, identify which three units from your army (excluding those with the Fortifications Battlefield Role) have the highest points value,\n and make a note of them on your army roster (if two or more are tied, you choose between them).\n If your army has three or fewer units, you instead identify all the units in your army.\n A unit’s points value includes the points of all weapons, other wargear and upgrades it has. You score 5 victory points for each of these units that are on the battlefield at the end of the battle.\n If a unit splits into several smaller units during a battle, all of those separate units (excluding DRONE units) must be on the battlefield at the end of the battle to score 5 victory points;\n if some of those separate units (excluding DRONE units) are on the battlefield at the end of the battle, but not all of them are, you score 3 victory points instead of 5."
 						}
 					]
 				},
@@ -56,7 +51,7 @@
 						{
 							"id": "GT20.01.03.01",
 							"name": "Titan Hunter",
-							"description": "[i]End Game Objective[/i]\nScore 10 victory points at the end of the battle if one enemy TITANIC model is destroyed, 12 victory points if two or more enemy TITANIC models are destroyed, or 15 victory points if three or more enemy TITANIC models are destroyed."
+							"description": "[i]End Game Objective[/i]\nScore 4 victory points at the end of the battle if one enemy TITANIC model is destroyed,\n 9 victory points if two enemy TITANIC models are destroyed, or 15 victory points if three or more enemy TITANIC models are destroyed."
 						},
 						{
 							"id": "GT20.01.03.02",
@@ -64,14 +59,9 @@
 							"description": "[i]End Game Objective[/i]\nScore 1 victory point at the end of the battle for each enemy MONSTER or VEHICLE model with a Wounds characteristic of 10 or less that is destroyed, 2 victory points for each enemy MONSTER or VEHICLE model with a Wounds characteristic of between 11-19 that is destroyed, and 3 victory points for each enemy MONSTER or VEHICLE model with a Wounds characteristic of 20 or more that is destroyed."
 						},
 						{
-							"id": "GT20.01.03.03",
-							"name": "Cut Off the Head",
-							"description": "[i]End Game Objective[/i]\nAt the end of the battle, you score a number of victory points if the enemy WARLORD was destroyed during the battle. The number of victory points scored depends on the battle round during which the enemy WARLORD was destroyed, as shown in the table below.\n\n[u]Battle Round | Victory Points[/u]\n                    1  | 13\n                    2  | 10\n                    3  |  6\n                    4  |  3\n                    5  |  1\n\nIf an enemy WARLORD was destroyed, but was then resurrected or otherwise returned to the battlefield and subsequently destroyed again, then for the purposes of this secondary objective it was destroyed during the battle round in which it was last removed from the battlefield."
-						},
-						{
 							"id": "GT20.01.03.04",
-							"name": "Assassinate",
-							"description": "[i]End Game Objective[/i]\nScore 3 victory points at the end of the battle for each enemy CHARACTER model that is destroyed."
+							"name": "ASSASSINATION",
+							"description": "[i]End Game Objective[/i]\nScore 3 victory points at the end of the battle for each enemy CHARACTER model that is destroyed. \n If the enemy WARLORD was destroyed during the battle, gain 1 additional victory point."
 						}
 					]
 				},
@@ -85,18 +75,18 @@
 						},
 						{
 							"id": "GT20.01.04.02",
-							"name": "Investigate Sites",
-							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time a unit from your army successfully completes the following action:\n\nInvestigate Site (Action): One INFANTRY unit (excluding CHARACTERS) from your army can start to perform this action at the end of your Movement phase if it is within 6” of the centre of the battlefield and no enemy units (excluding AIRCRAFT) are within 6” of the battlefield. The action is completed at the end of your turn."
+							"name": "INVESTIGATE SIGNAL",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time a unit from your army successfully completes the following action: \nInvestigate Signal (Action): One INFANTRY unit (excluding CHARACTER units) from your army can start to perform this action at the end of your Movement phase if it is wholly within 6' of the centre of the battlefield and no enemy units (excluding AIRCRAFT units) are wholly within 6' of the centre of the battlefield. \nThis action is completed at the end of your turn provided the unit attempting it is still wholly within 6' of the centre of the battlefield and no enemy units (excluding AIRCRAFT units)\n are wholly within 6' of the centre of the battlefield."
 						},
 						{
 							"id": "GT20.01.04.03",
-							"name": "Deploy Scramblers",
-							"description": "[i]End Game Objective[/i]\nScore 10 victory points at the end of the battle if you successfully completed the following action three times during the battle - once in your deployment zone, once in your opponent’s deployment zone and once more than 6” from either player’s deployment zone:\n\nDeploy Scramblers (Action): One INFANTRY unit (excluding CHARACTERs) from your army can start to perform this action at the end of your Movement phase if it is wholly within your deployment zone, wholly within your opponent’s deployment zone, or more than 6” from either player’s deployment zone. The action is completed at the end of your turn."
+							"name": "RETRIEVE OCTARIUS DATA",
+							"description": "[i]End Game Objective[/i]\n you select this objective, keep a tally of Retrieved Data points; add 1 to that tally each time a unit from your army successfully completes the following action during the battle: Retrieve Data (Action): One INFANTRY unit (excluding CHARACTER units)\n from your army can start to perform this action at the end of your Movement phase if it is wholly within a table quarter that has not had a servo-skull retrieved by your army (see below) and it is more then 6' away from any other table quarter.\n This action is completed at the end of your turn provided the unit attempting it is still within the same table quarter.\n If this action is successfully completed, the table quarter is said to have had a servo-skull retrieved by your army.\n At the end of the battle, score 4 victory points if your Retrieved Data tally is 2, score 8 victory points if your tally is 3, or score 12 victory points if your tally is 4."
 						},
 						{
 							"id": "GT20.01.04.04",
-							"name": "Teleport Homer",
-							"description": "[i]Progressive Objective[/i]\nScore 4 victory points each time a unit from your army successfully completes the following action:\n\nRepair Teleport Homer (Action): One INFANTRY unit from your army can start to perform this action at the end of your Movement phase if it is wholly within your opponent’s deployment zone. The action is completed at the end of your next Command phase provided the unit attempting it is still wholly within your opponent’s deployment zone."
+							"name": "DEPLOY TELEPORT HOMERS",
+							"description": "[i]Progressive Objective[/i]\nIf you select this objective, then units from your army can perform the following action: \nDeploy Teleport Homer (Action): One INFANTRY or BIKER unit from your army can start to perform this action at the end of your Movement phase if it is wholly within 12' of your opponent’s deployment zone. \nThe action is completed at the end of your next Command phase provided the unit attempting it is still wholly within 12' of your opponent’s deployment zone.\n Each time a unit from your army successfully completes this action, you score 2 victory points (you score 4 victory points instead if the unit completed the action while wholly within your opponent’s deployment zone)."
 						}
 					]
 				},
@@ -110,13 +100,13 @@
 						},
 						{
 							"id": "GT20.01.05.02",
-							"name": "Mental Interrogation",
-							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time you successfully complete the following psychic action:\n\nMental Interrogation (Psychic Action - Warp Charge 4): One PSYKER CHARACTER from your army can attempt to perform this psychic action in your Psychic phase if it is within 18” of an enemy Character models."
+							"name": "PSYCHIC INTERROGATION",
+							"description": "[i]Progressive Objective[/i]\nScore 3 victory points each time you successfully complete the following psychic action: \nPsychic Interrogation (Psychic Action - Warp Charge 4): One PSYKER CHARACTER unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 24' of any visible enemy CHARACTER models."
 						},
 						{
 							"id": "GT20.01.05.03",
-							"name": "Psychic Ritual",
-							"description": "[i]End Game Objective[/i]\nScore 15 victory points at the end of the battle if any unit from your army successfully completed the following psychic action 3 times during the battle:\n\nPsychic Ritual (Psychic Action - Warp Charge 3): One PSYKER CHARACTER unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 6” of the centre of the battlefield."
+							"name": "WARP RITUAL",
+							"description": "[i]End Game Objective[/i]\nIf you select this objective, keep a tally of Ritual points; add 1 to that tally each time a unit from your army successfully completes the following psychic action during the battle:\n Warp Ritual (Psychic Action - Warp Charge 3): One PSYKER CHARACTER unit from your army can attempt to perform this psychic action in your Psychic phase if it is within 6' of the centre of the battlefield. At the end of the battle,\n score 3 victory points if your Ritual tally is 1, score 7 victory points if your tally is 2, or score 12 victory points if your tally is 3 or more."
 						},
 						{
 							"id": "GT20.01.05.04",

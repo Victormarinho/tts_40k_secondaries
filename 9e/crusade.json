@@ -11,7 +11,7 @@
 					"objectives": [
 						{
 							"id": "CR.01.01.01",
-							"name": "ASSASSINS",
+							"name": "Assassins",
 							"description": "Keep an Assassins tally for each unit from your army. \nAdd 1 to a unit's Assassins tally each time it destroys an enemy CHARACTER unit.\n Each unit gains 2 experience points for every mark on its Assassins tally."
 						},
 						{
